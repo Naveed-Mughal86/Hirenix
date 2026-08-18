@@ -1,0 +1,30 @@
+{
+  "name": "hirenix",
+  "version": "1.0.0",
+  "description": "An authenticated job portal system where talent meets opportunity",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "tsx watch src/server.ts",
+    "build" : "tsc",
+    "start" : "node dist/server.js",
+    "typecheck" : "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveed-Mughal86/Hirenix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Naveed-Mughal86/Hirenix/issues"
+  },
+  "homepage": "https://github.com/Naveed-Mughal86/Hirenix#readme",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
