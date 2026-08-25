@@ -2,7 +2,7 @@ The jobs table
 
 CREATE TABLE jobs (
   id                  uuid        PRIMARY KEY DEFAULT gen_random_uuid(),
-  company_id          uuid        NOT NULL REFERENCES companies(id),
+  company_id          uuid        NOT NULL REFERENCES companies(id),      ON DELETE RESTRICT
   title               text        NOT NULL,
   description         text        NOT NULL,
   status              text        NOT NULL DEFAULT 'draft'
